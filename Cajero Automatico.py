@@ -26,8 +26,8 @@ Elija una opción: """
             if saldo < retiro:
                 print("No tiene ese dinero")
             else:
+                saldo -= retiro
                 print(f"Su saldo actual es de {saldo}")
-                saldo -= retiro 
         case 4:
             print("Gracias por tu tiempo")
         case _:
