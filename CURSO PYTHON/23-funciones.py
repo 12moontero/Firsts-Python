@@ -37,4 +37,5 @@ def validar_color(color):
 if validar_color("rojo"):
     print("Ese color esta en la lista")
 else:
-    print("Ese color no esta en la lista, pero lo acabamos de añadir")
+    print("Ese color no esta en la lista")
+                                      
